@@ -1,118 +1,101 @@
-# Awesome-Flight-Simulation-Video-Game
+# Awesome Flight Simulation & Video Games ✈️🚀
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Flight Simulation Video Game Banner" width="100%">
+</p>
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-**Curated List of Commercial Games & Open-Source GitHub Projects**
-
-*Focused on Realistic Flight Dynamics, Combat Simulation, Space Flight & Browser-Based Simulators*
+> **The Ultimate Curated List of Commercial Flight Simulator Games & Open-Source Aerospace GitHub Projects**  
+> *Discover top-rated PC flight simulators, realistic 6DoF combat dynamics, space flight simulators, and WebGL browser-based flying games.*
 
 **Last updated: October 2026**
 
+---
 
+## 🎯 Overview & Key Topics
 
-This repository tracks notable **commercial flight simulation games** and **open-source projects** that capture the same spirit—realistic flight dynamics, immersive cockpits, combat scenarios, and accessible browser-based flying.
+Welcome to the definitive index of **flight simulation software**, **commercial flight video games**, and **open-source flight simulators**. Whether you are looking for photorealistic VR flight simulators, combat air warfare (DCS World, IL-2 Sturmovik), FAA-approved pilot training tools (X-Plane 12, Prepar3D), space flight mechanics (Orbiter), or open-source flight dynamics models (JSBSim, FlightGear), this list covers all major platforms (Windows, macOS, Linux, WebGL, Android, iOS).
 
-
-
-**Examples** include Microsoft Flight Simulator 2024, X-Plane 12, Prepar3D, Aerofly FS 4, DCS World, IL-2 Sturmovik, FlightGear, GeoFS, Infinite Flight, and Flight Sim World (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source flight simulation ecosystem is **exceptionally mature and production-proven**. **FlightGear** is the flagship open-source flight simulator with **990K lines of code** and 22 active contributors . **JSBSim** provides the industry-standard open-source flight dynamics model used by FlightGear, BVR Sim, and research institutions . **Orbiter Space Flight Simulator** brings realistic space flight to open source with **1,975 GitHub stars** . **OpenSkyFlight** and **web-flight-simulator** deliver browser-based 3D flight over real-world terrain using Three.js.
-
-## 📖 Table of Contents
-
-- [✈️ Commercial Games](#-commercial-games)
-- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-- [🤝 How to Contribute](#how-to-contribute)
-- [⚠️ Disclaimer](#-disclaimer)
-
-## ✈️ Commercial Games
-
-> **📊 Market Context**: The global flight simulation market is estimated at **~$1.5B in 2026**, growing toward **~$3B by 2032**. The sector is **moderately concentrated** — **Microsoft Flight Simulator 2024** dominates the consumer tier with **~$51.7M gross revenue** on Steam alone , while **X-Plane 12** and **Prepar3D** lead professional and training segments . **DCS World** is the gold standard for combat simulation with a **free-to-play model** and paid modules (F-14B at $49.99, F-14 Ultimate Edition at $98.99) . **IL-2 Sturmovik** serves WWII combat enthusiasts with editions ranging from **$9.99** (1946) to **$84.63** (Premium Edition bundles) . **Aerofly FS 4** targets mobile and desktop at **$59.99** . **Infinite Flight** dominates mobile with **free download** and **$10.49/month Pro subscription** . **Flight Sim World** was **discontinued** after Dovetail Games ceased development . No single vendor holds a winner-take-all position.
-
-
-
-| Game | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size |
-|------|-------------|------------------------|------------------|--------------|
-| **[Microsoft Flight Simulator 2024](https://www.flightsimulator.com/)** | **The flagship consumer flight simulator.** Photorealistic global terrain, live weather, and complete aircraft fleet. | **Standard Edition**: **$69.99**. **Deluxe**: **$99.99**. **Premium Deluxe**: **$129.99**. **Aviator Edition**: **$199.99** . | **No free tier** — full purchase required. **Xbox Game Pass** includes Standard Edition . | **~$281B revenue (Microsoft FY2025)** |
-| **[X-Plane 12](https://www.x-plane.com/)** | **The most advanced flight dynamics simulator.** FAA-approved for training, used by pilots worldwide. | **Digital**: **$59.99**. **DVD Edition**: **$99.99** . | **Free demo** available. **No perpetual free tier** for full version . | **Private (Laminar Research, ~$3.9M revenue)**  |
-| **[Prepar3D v6](https://www.prepar3d.com/)** | **Lockheed Martin's professional training simulator.** Built on Microsoft ESP technology. | **Personal License**: **$59.95**. **Professional**: **$350.00**. **Professional Plus**: **$2,750.00**. **Developer**: **$9.95/month** . | **No free tier**. **Academic License** available at **$59.95** . | **~$65B revenue (Lockheed Martin FY2025)** |
-| **[DCS World](https://www.digitalcombatsimulator.com/)** | **The gold standard for combat flight simulation.** Free-to-play with high-fidelity paid aircraft modules. | **Free-to-play** core. **F-14B**: **$49.99**. **F-14 Ultimate Edition**: **$98.99**. Modules range **$15–$80** . | **Free base game** includes Su-25T and TF-51D, Caucasus map, and Mariana Islands map . | **Private (Eagle Dynamics)** |
-| **[IL-2 Sturmovik](https://il2sturmovik.com/)** | **WWII combat flight simulator series.** Realistic damage modeling and large-scale battles. | **IL-2 Sturmovik: 1946**: **$9.99**. **Battle of Stalingrad**: **~$50**. **Premium Edition bundles**: **$84.63** . | **No free tier** — full purchase required. **Free demo** occasionally available . | **Private (1C Game Studios)**  |
-| **[Aerofly FS 4](https://www.aerofly.com/)** | **Accessible flight simulator for desktop and mobile.** Smooth performance and real-world scenery. | **Steam**: **$59.99** (Deluxe: **$79.98**). **App Store**: **$49.99** (iOS/Mac) . | **No free tier**. **In-app purchases** for aircraft bundles ($29.99) . | **Private (IPACS)** |
-| **[GeoFS](https://www.geo-fs.com/)** | **Free browser-based flight simulator.** Runs on any device with a modern browser, no installation. | **Free** with standard 10m/pixel imagery. **HD subscription**: **~$10–15/year** for Bing high-resolution imagery . | **Free tier**: Standard resolution imagery, playable on Chromebooks and low-end devices . | **Private (Xavier Tassin)** |
-| **[Infinite Flight](https://infiniteflight.com/)** | **The leading mobile flight simulator.** Global multiplayer, live weather, and human ATC. | **Free download**. **Pro Monthly**: **$10.49** (~€10.49). **Pro Annual**: **$84.99** (~€84.99). **Aircraft Rental Pass**: **$0.99/24hrs** . | **Free tier**: Limited aircraft and regions. **Pro subscription** unlocks global multiplayer, full fleet, live weather, and ATC . | **Private (Infinite Flight LLC)** |
-| **[Flight Sim World](https://store.steampowered.com/)** | **Discontinued flight simulator (Dovetail Games).** Was built on Unreal Engine 4 with 23,000 airports. | **N/A** — **discontinued**. Historical price: **$7.49** . | **N/A** — service terminated. **No longer available** . | **Part of Dovetail Games** |
-
-
-
-## 🔓 Open-Source GitHub Projects
-
-
-
-| Repo | Description | Stars |
-|------|-------------|-------|
-| **[Orbiter Space Flight Simulator](https://github.com/orbitersim/orbiter)** — **The definitive open-source space flight simulator.** Realistic Newtonian physics, orbital mechanics, and spacecraft systems. **MIT License** — released as open source in July 2021 . **1,975 stars**, 278 forks . Active development (August 2026) . | [![Stars](https://img.shields.io/github/stars/orbitersim/orbiter?style=social&color=white)](https://github.com/orbitersim/orbiter/stargazers) | ~1,975 |
-| **[JSBSim](https://github.com/JSBSim-Team/jsbsim)** — **The industry-standard open-source flight dynamics model (FDM).** **C++ library** implementing non-linear 6DoF physics. Created in 1996, now used by FlightGear, BVR Sim, and aerospace research. **LGPL-2.1** . **2.2k stars**, 586 forks . Latest release: **1.3.1** (May 2026) . | [![Stars](https://img.shields.io/github/stars/JSBSim-Team/jsbsim?style=social&color=white)](https://github.com/JSBSim-Team/jsbsim/stargazers) | ~2,200 |
-| **[FlightGear](https://github.com/FlightGear/flightgear)** — **The flagship open-source flight simulator.** **990K lines of code**, 22 active contributors, 4.68M total lines across the project . Cross-platform (Windows, macOS, Linux). **GPL-2.0** . **Note**: Primary development is on GitLab; GitHub mirror has **~692 stars** . | [![Stars](https://img.shields.io/github/stars/FlightGear/flightgear?style=social&color=white)](https://github.com/FlightGear/flightgear/stargazers) | ~692 |
-| **[web-flight-simulator](https://github.com/dimartarmizi/web-flight-simulator)** — **Browser-based arcade flight simulator.** **Three.js + CesiumJS** for real-world terrain rendering. No installation required — runs in any modern browser. **575 stars**, 114 forks . | [![Stars](https://img.shields.io/github/stars/dimartarmizi/web-flight-simulator?style=social&color=white)](https://github.com/dimartarmizi/web-flight-simulator/stargazers) | ~575 |
-| **[OpenSkyFlight](https://github.com/jeanjerome/OpenSkyFlight)** — **Browser-based 3D flight simulator over real-world terrain.** **Three.js** with satellite imagery, elevation data from Terrarium, adaptive LOD, and aircraft-style HUD. **No install required** . | [![Stars](https://img.shields.io/github/stars/jeanjerome/OpenSkyFlight?style=social&color=white)](https://github.com/jeanjerome/OpenSkyFlight/stargazers) | ~300 |
-| **[YSFlight Community Edition](https://github.com/XA-38/YSCE)** — **Community modernization of YSFlight.** Original YSFlight by Soji Yamakawa since 1999, now open source under **BSD 3-Clause** (released August 2022) . Community Edition modernizes rendering and aircraft models . | [![Stars](https://img.shields.io/github/stars/XA-38/YSCE?style=social&color=white)](https://github.com/XA-38/YSCE/stargazers) | ~200 |
-| **[BVR Sim](https://github.com/lizi-Margin/bvr_sim)** — **Open-source beyond-visual-range air combat environment for reinforcement learning.** **Gymnasium-style** with Python and accelerated C++ backends. Built on **JSBSim** with F-15, F-16, F/A-18, and F-22 models . Includes **skrl PPO training pipeline** . | [![Stars](https://img.shields.io/github/stars/lizi-Margin/bvr_sim?style=social&color=white)](https://github.com/lizi-Margin/bvr_sim/stargazers) | ~200 |
-| **[Fighters Legacy](https://github.com/fighters-legacy/fighters-legacy)** — **General-purpose combat flight simulator engine.** First-class mod and plugin system, inspired by Jane's Fighters Anthology (1998). **Open source** . | [![Stars](https://img.shields.io/github/stars/fighters-legacy/fighters-legacy?style=social&color=white)](https://github.com/fighters-legacy/fighters-legacy/stargazers) | ~100 |
-
-
-
-**Additional open-source options worth exploring:**
-
-
-
-| Repo | Description |
-|------|-------------|
-| **[OpenFlightSim](https://github.com/UASLab/OpenFlightSim)** — Open Flight Simulation. Research-grade flight dynamics and simulation. **GPL-2.0** . |
-| **[SimGear](https://github.com/FlightGear/simgear)** — Simulation library for FlightGear. Cross-platform C++ toolkit for flight simulation development . |
-| **[OpenOrbiterSim](https://github.com/OpenOrbiterSim)** — Community fork of Orbiter Space Flight Simulator. **MIT License** . |
-| **[MSFS 2024 Open Source Tools](https://github.com/topics/msfs-2024)** — Community tools for Microsoft Flight Simulator 2024 scenery and aircraft development. |
-
-
-
-## 🤝 How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's commercial or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## ⚠️ Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Commercial flight simulators may include **paid DLC, microtransactions, or subscription models**; review pricing before purchase.
-
-- **Critical lifecycle notice**: **Flight Sim World was discontinued** by Dovetail Games. No longer available for purchase or play.
-
-- **Open-source reality**: The open-source ecosystem for flight simulation is **exceptionally mature and production-proven**. **FlightGear** is the flagship open-source flight simulator with **990K lines of code** and 22 active contributors . **JSBSim** provides the industry-standard flight dynamics model used by FlightGear, BVR Sim, and research institutions . **Orbiter Space Flight Simulator** brings realistic space flight to open source with **1,975 stars** . **OpenSkyFlight** and **web-flight-simulator** deliver browser-based 3D flight over real-world terrain. However, **commercial simulators** (Microsoft Flight Simulator, X-Plane, Prepar3D) provide **photorealistic global terrain, live weather, and professional certification** that open-source alternatives require significant development to match. The open-source path is **genuinely viable** for research, education, and hobbyist flight simulation.
-
-
+### Key Categories Covered:
+- **Civil Aviation & Pilot Training**: Microsoft Flight Simulator 2024, X-Plane 12, Prepar3D v6, Aerofly FS 4.
+- **Combat & Military Dogfighting**: DCS World, IL-2 Sturmovik: Battle of Stalingrad, BVR Sim.
+- **Open-Source Flight Simulators & FDM Engines**: FlightGear, JSBSim 6DoF Flight Dynamics, YSFlight CE.
+- **Space Flight & Orbital Mechanics**: Orbiter Space Flight Simulator, OpenOrbiterSim.
+- **Browser-Based & WebGL Flight Simulators**: GeoFS, OpenSkyFlight (Three.js), web-flight-simulator (CesiumJS).
+- **Mobile Flight Simulators**: Infinite Flight Pro, Aerofly FS Mobile.
 
 ---
 
+## 📖 Table of Contents
 
+- [✈️ Commercial Flight Simulators](#️-commercial-flight-simulators)
+- [🔓 Open-Source GitHub Flight Projects](#-open-source-github-flight-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer & Market Analysis](#️-disclaimer--market-analysis)
 
-**Made for flight simulation enthusiasts, aviation professionals, aerospace researchers, and open-source developers.**
+---
 
-Let's make flight simulation more open, accessible, and realistic.
+## ✈️ Commercial Flight Simulators
+
+> **📊 Market Context**: The global flight simulation market is estimated at **~$1.5B in 2026**, growing toward **~$3B by 2032**. The consumer tier is led by **Microsoft Flight Simulator 2024** (~$51.7M gross revenue on Steam), alongside **X-Plane 12** and **Prepar3D** for commercial pilot training and FAA certification.
+
+| Game / Simulator | Description & Key Features | Pricing (Starting Tier) | Free Tier / Demo | Platform Support |
+|------------------|----------------------------|------------------------|------------------|------------------|
+| **[Microsoft Flight Simulator 2024](https://www.flightsimulator.com/)** | **Flagship consumer flight simulator.** Photorealistic global terrain streaming, live real-world weather, and comprehensive aircraft fleet. | **Standard**: **$69.99**<br>**Deluxe**: **$99.99**<br>**Premium Deluxe**: **$129.99**<br>**Aviator**: **$199.99** | Included in **Xbox Game Pass**. No standalone free tier. | Windows, Xbox Series X/S, Cloud |
+| **[X-Plane 12](https://www.x-plane.com/)** | **Advanced flight dynamics simulator.** Uses blade element theory, FAA-certifiable for flight schools and pilot logbooks. | **Digital Download**: **$59.99**<br>**DVD Edition**: **$99.99** | **Free Demo** available with time-limited flight zone. | Windows, macOS, Linux |
+| **[Prepar3D v6](https://www.prepar3d.com/)** | **Lockheed Martin's professional flight training platform.** Built on Microsoft ESP technology for military, academic, and professional training. | **Personal**: **$59.95**<br>**Professional**: **$350.00**<br>**Developer**: **$9.95/mo** | Academic license available at **$59.95**. | Windows |
+| **[DCS World](https://www.digitalcombatsimulator.com/)** | **The gold standard for military combat flight simulation.** High-fidelity clickable cockpits, radar systems, and realistic weapon physics. | **Free-to-Play** core game.<br>Aircraft Modules: **$15.00 – $80.00** (e.g. F-14B: $49.99). | **Free base game** includes Su-25T and TF-51D Mustang with Caucasus map. | Windows |
+| **[IL-2 Sturmovik](https://il2sturmovik.com/)** | **WWII & WWI aerial combat flight simulator.** Advanced damage modeling, ballistic modeling, and historical WWII dogfights. | **IL-2 Sturmovik: 1946**: **$9.99**<br>**Battle of Stalingrad**: **~$50.00**<br>**Premium Bundles**: **$84.63** | No perpetual free tier; periodic free trial weekends on Steam. | Windows |
+| **[Aerofly FS 4](https://www.aerofly.com/)** | **High-performance flight simulator.** Ultra-fast loading times, VR native support, and detailed scenery for PC and mobile. | **Steam**: **$59.99** (Deluxe: **$79.98**)<br>**Mobile Apps**: **$49.99** | In-app purchases for additional aircraft bundles. | Windows, macOS, iOS, Android |
+| **[GeoFS](https://www.geo-fs.com/)** | **Accessible web browser flight simulator.** Runs instantly in browser using global aerial imagery and real-time multiplayer. | **Free** (Standard 10m imagery)<br>**HD Subscription**: **~$10–15/year** | **Free Tier** with global coverage, playable on Chromebooks & low-end PCs. | Web Browser, Mobile |
+| **[Infinite Flight](https://infiniteflight.com/)** | **Premier mobile flight simulator.** Live ATC multiplayer, global satellite imagery, real-time meteorology, and autopilot. | **Free Download**<br>**Pro Monthly**: **$10.49**<br>**Pro Annual**: **$84.99** | **Free tier** includes basic aircraft and default flight regions. | iOS, Android |
+| **[Flight Sim World](https://store.steampowered.com/)** | **Discontinued flight simulator (Dovetail Games).** Built on Unreal Engine 4 with GA aircraft focus. | **N/A** (Discontinued) | Service terminated; no longer available for purchase. | Windows |
+
+---
+
+## 🔓 Open-Source GitHub Flight Projects
+
+The open-source flight simulation ecosystem is mature and actively used in academic aerospace research, AI reinforcement learning, and indie game development.
+
+| Repository | Category & Description | License | GitHub Stars |
+|------------|------------------------|---------|--------------|
+| **[Orbiter Space Simulator](https://github.com/orbitersim/orbiter)** | **Open-source space flight simulator.** Realistic Newtonian mechanics, orbital maneuvers, planetary physics, and spacecraft simulation. | **MIT License** | [![Stars](https://img.shields.io/github/stars/orbitersim/orbiter?style=social)](https://github.com/orbitersim/orbiter) (~1,975) |
+| **[JSBSim FDM](https://github.com/JSBSim-Team/jsbsim)** | **Open-source 6DoF Flight Dynamics Model.** C++ library for non-linear flight dynamics used in FlightGear, BVR Sim, and aerospace engineering. | **LGPL-2.1** | [![Stars](https://img.shields.io/github/stars/JSBSim-Team/jsbsim?style=social)](https://github.com/JSBSim-Team/jsbsim) (~2,200) |
+| **[FlightGear](https://github.com/FlightGear/flightgear)** | **Flagship open-source flight simulator.** Over 990K lines of code, open scenery databases, and multi-aircraft support across all OS platforms. | **GPL-2.0** | [![Stars](https://img.shields.io/github/stars/FlightGear/flightgear?style=social)](https://github.com/FlightGear/flightgear) (~692) |
+| **[web-flight-simulator](https://github.com/dimartarmizi/web-flight-simulator)** | **Browser-based 3D flight simulator.** Built with Three.js + CesiumJS for rendering real-world elevation and terrain maps in WebGL. | **MIT** | [![Stars](https://img.shields.io/github/stars/dimartarmizi/web-flight-simulator?style=social)](https://github.com/dimartarmizi/web-flight-simulator) (~575) |
+| **[OpenSkyFlight](https://github.com/jeanjerome/OpenSkyFlight)** | **WebGL browser flight sim over real terrain.** Uses Three.js with satellite imagery, adaptive terrain LOD, and interactive head-up display (HUD). | **MIT** | [![Stars](https://img.shields.io/github/stars/jeanjerome/OpenSkyFlight?style=social)](https://github.com/jeanjerome/OpenSkyFlight) (~300) |
+| **[YSFlight Community Edition](https://github.com/XA-38/YSCE)** | **Lightweight open-source flight simulator engine.** Modernized community fork of Soji Yamakawa's classic YSFlight (1999). | **BSD 3-Clause** | [![Stars](https://img.shields.io/github/stars/XA-38/YSCE?style=social)](https://github.com/XA-38/YSCE) (~200) |
+| **[BVR Sim](https://github.com/lizi-Margin/bvr_sim)** | **Beyond-Visual-Range air combat RL environment.** Gymnasium-compatible Python framework powered by JSBSim backend for autonomous jet dogfighting. | **GPL-3.0** | [![Stars](https://img.shields.io/github/stars/lizi-Margin/bvr_sim?style=social)](https://github.com/lizi-Margin/bvr_sim) (~200) |
+| **[Fighters Legacy](https://github.com/fighters-legacy/fighters-legacy)** | **Moddable combat flight simulator engine.** Inspired by Jane's Fighters Anthology, featuring custom aircraft plugins and mod support. | **Open Source** | [![Stars](https://img.shields.io/github/stars/fighters-legacy/fighters-legacy?style=social)](https://github.com/fighters-legacy/fighters-legacy) (~100) |
+
+### 🛠️ Additional Open-Source Aerospace Libraries & Tools
+- **[OpenFlightSim](https://github.com/UASLab/OpenFlightSim)**: Research-grade UAV and aircraft flight simulation framework.
+- **[SimGear](https://github.com/FlightGear/simgear)**: Core C++ 3D graphics and simulation engine powering FlightGear.
+- **[OpenOrbiterSim](https://github.com/OpenOrbiterSim)**: Community-driven engine fork of Orbiter Space Simulator.
+- **[MSFS 2024 Developer Tools](https://github.com/topics/msfs-2024)**: Open-source SDK scripts, blender plugins, and scenery mods for MSFS 2024.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions to expand this list of flight simulators and aerospace projects are always welcome!
+
+1. **Fork** this repository.
+2. Edit `README.md` following the table structure above.
+3. Provide: Name, direct URL, accurate description, pricing, and project license.
+4. Submit a **Pull Request (PR)** with a summary of added/modified flight software.
+
+---
+
+## ⚠️ Disclaimer & Market Analysis
+
+- **Community Maintained**: This list is curated by flight simulation enthusiasts and researchers for educational and informational purposes.
+- **Pricing & Subscriptions**: Prices are subject to vendor updates. Always check official game sites for current promotions and VR capability requirements.
+- **Commercial vs. Open-Source**: While commercial titles (MSFS 2024, X-Plane 12) lead in visual fidelity and cloud terrain streaming, open-source projects like **FlightGear** and **JSBSim** provide unmatched customization for engineering, aerodynamics research, and autonomous flight training.
+
+---
+
+**Keywords**: *Flight Simulation, Flight Simulator Video Games, Microsoft Flight Simulator 2024, X-Plane 12, DCS World, FlightGear, JSBSim, Space Flight Simulator, WebGL Flight Sim, Free Flight Games, Open Source Flight Dynamics.*
+# Awesome-Flight-Simulation-Video-Game
+
