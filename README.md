@@ -62,7 +62,7 @@ Welcome to the definitive index of **flight simulation software** 🛩️, **com
 
 The open-source flight simulation ecosystem is mature and actively used in academic aerospace research 🧪, AI reinforcement learning 🤖, and indie game development 🎮.
 
-| Repository | Category & Description | License | GitHub Stars |
+| Repository | Category & Description | License | GitHub_Stars |
 |------------|------------------------|---------|--------------|
 | **[Orbiter Space Simulator](https://github.com/orbitersim/orbiter)** 🚀 | **Open-source space flight simulator.** Realistic Newtonian mechanics, orbital maneuvers, planetary physics, and spacecraft simulation. | **MIT License** | [![Stars](https://img.shields.io/github/stars/orbitersim/orbiter?style=social)](https://github.com/orbitersim/orbiter) (~1,975) |
 | **[JSBSim FDM](https://github.com/JSBSim-Team/jsbsim)** ⚙️ | **Open-source 6DoF Flight Dynamics Model.** C++ library for non-linear flight dynamics used in FlightGear, BVR Sim, and aerospace engineering. | **LGPL-2.1** | [![Stars](https://img.shields.io/github/stars/JSBSim-Team/jsbsim?style=social)](https://github.com/JSBSim-Team/jsbsim) (~2,200) |
